@@ -1,0 +1,5 @@
+[project]
+name = "moviepy-auto-reel-factory"
+version = "0.1.0"
+description = "Production-ready open-source automation system for generating Bengali AI Reels using MoviePy."
+requires-python = ">=3.13"
