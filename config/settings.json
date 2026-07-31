@@ -1,0 +1,30 @@
+{
+  "project": {
+    "name": "MoviePy Auto Reel Factory",
+    "short_name": "MARF",
+    "version": "0.1.0"
+  },
+
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "format": "mp4"
+  },
+
+  "language": {
+    "default": "bn-BD"
+  },
+
+  "rss": {
+    "feeds": []
+  },
+
+  "output": {
+    "folder": "output"
+  },
+
+  "logging": {
+    "level": "INFO"
+  }
+}
