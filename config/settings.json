@@ -1,30 +1,71 @@
 {
   "project": {
     "name": "MoviePy Auto Reel Factory",
-    "short_name": "MARF",
-    "version": "0.1.0"
+    "version": "1.0.0",
+    "language": "bn",
+    "timezone": "Asia/Dhaka",
+    "debug": false
   },
 
   "video": {
     "width": 1080,
     "height": 1920,
     "fps": 30,
-    "format": "mp4"
-  },
-
-  "language": {
-    "default": "bn-BD"
+    "duration": 60,
+    "background_color": "#000000",
+    "font": "NotoSansBengali-Bold.ttf",
+    "font_size": 62,
+    "subtitle_color": "#FFFFFF",
+    "subtitle_stroke": "#000000",
+    "subtitle_stroke_width": 3
   },
 
   "rss": {
-    "feeds": []
+    "enabled": true,
+    "url": "https://YOUR-WEBSITE.COM/feed/"
+  },
+
+  "ai": {
+    "provider": "openai",
+    "model": "gpt-5.5"
+  },
+
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "bn-BD-NabanitaNeural",
+    "speed": "+0%"
+  },
+
+  "assets": {
+    "logo": "assets/logo.png",
+    "music": "assets/music.mp3",
+    "background": "assets/background.jpg"
   },
 
   "output": {
-    "folder": "output"
+    "folder": "output",
+    "format": "mp4"
   },
 
-  "logging": {
-    "level": "INFO"
+  "google_drive": {
+    "enabled": true,
+    "folder_id": ""
+  },
+
+  "facebook": {
+    "enabled": true,
+    "page_id": "",
+    "publish": false
+  },
+
+  "youtube": {
+    "enabled": true,
+    "channel_id": "",
+    "privacy": "public"
+  },
+
+  "scheduler": {
+    "enabled": true,
+    "every_hours": 12
   }
 }
